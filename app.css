@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg);
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: .6rem auto;
+    height: 100%;
+    border: 4px fade #ce4513;
+    padding: 4rem;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+form {
+    margin: 2.5rem auto;
+}
+
+h2 {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 35px;
+    font-family: 'Italianno', cursive;
+    color: rgb(228, 53, 53);
+}
+
+h4 {
+    font-family: 'Acme', sans-serif;
+    margin: .5rem;
+    padding: 5px;
+    font-size: 19px;
+    color: red;
+    font-style: italic;
+}
+
+input {
+    font-size: 12px;
+    border: none;
+    appearance: none;
+    background: #c9c6c6;
+    padding: 12px;
+    border-radius: 3px;
+    width: 400px;
+    margin: .5rem;
+    outline: none;
+}
+
+input:focus::placeholder {
+    color:transparent;
+}
+
+input::placeholder {
+    color: #222;
+    transition: color 0.4s ease;
+    font-style: italic;
+}
+
+.input-box .radio {
+    padding: 0;
+    border-radius: 10px;
+    width: 15px;
+    margin: 0;
+    height: 15px;
+    display:inline-flex;
+}
+
+.input-box select {
+    margin: .5rem;
+    padding: 10px;
+    width: 152px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.input-box button {
+    margin: .5rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    height:50px;
+    border-radius: 8px;
+    background: rgb(221, 75, 21);
+    color: white;
+    outline:auto;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background: rgb(199, 67, 19);
+}
